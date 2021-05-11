@@ -42,8 +42,7 @@ html {
     padding: 5px;
     text-align: center;
     display: grid;
-    margin-left: 40px;
-    margin-right: 40px;
+    
 }
 
 .align-right {
@@ -99,7 +98,6 @@ html {
     .align-right .aside {
         display: block;
     }
-
     .button {
         width: 100px;
     }
@@ -111,7 +109,7 @@ html {
         margin: -8px
     }
     .row{
-        height: 550px;
+        height: 640px;
         background-color: #FFFFFF;
     }
     .headerText{
