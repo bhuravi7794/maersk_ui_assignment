@@ -5,9 +5,9 @@
 >**JavaScript**,**HTML**,**CSS**
 
 ## Getting Started
-> Clone the repository.
-> Open index.html using any browser.
+1. Clone the repository.
+2. Open index.html using any browser.
 
 ## Feature
-> Use Shuffle button to randomly shuffle the cards from 1-9.
-> Use Sort button to arrange the card in ascending order.
+1. Use Shuffle button to randomly shuffle the cards from 1-9.
+2. Use Sort button to arrange the card in ascending order.
