@@ -13,6 +13,10 @@
 .row::after {
     clear: both;
 }
+.row{
+    height: 550px;
+    background-color: #EFEFEF;
+}
 
 [class*="align-"] {
     float: left;
@@ -20,7 +24,7 @@
 }
 html {
     font-family: Helvetica, Arial,sans-serif;
-    background-color: #EFEFEF;
+    background-color: #FFFFFF;
 }
 
 .header {
@@ -76,23 +80,18 @@ html {
 @media only screen and (max-width: 376px) {
     html {
         font-family: Helvetica, Arial,sans-serif;
-        background-color: #ffffff;
+        background-color: #000000;
     }
-
-    [class*="align-"] {
-        width: 100%;
-    }
-
-
-    [id*="box"] {
-        background-color: red; 
+   [class*="align-"] {
+        width: 95%;
+        margin-left: 11px;
     }
 
     #grid-container div {
         min-width: 100%;
         height: 40px;
         margin: 2px 0px;
-        background-color: #EFEFEF;
+        background-color: #EFEFEF !important;
         color: #000000;
         font-size: 1em;
     }
@@ -111,11 +110,15 @@ html {
         text-align: center;
         margin: -8px
     }
+    .row{
+        height: 550px;
+        background-color: #FFFFFF;
+    }
     .headerText{
         background-color: black;
         color: #ffffff;
-        font-size: 16px;
         margin-top: 2px;
+        padding-bottom: 3px;
     }
 
 }
